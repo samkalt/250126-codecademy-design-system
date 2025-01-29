@@ -1,80 +1,103 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Website Design System</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    </head>
+  <head>
+    <title>Website Design System</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-    <body>
-        <h1>Smoothie's Website Design System</h1>
+  <body>
+    <h1>Smoothie's Website Design System</h1>
 
-        <nav>
-            <ul>
-                <li><a href="#colors"><button>Colors</button></a></li>
-                <li><a href="#fonts"><button>Fonts</button></a></li>
-                <li><a href="#elements"><button>Elements</button></a></li>
-            </ul>
-        </nav>
+    <nav>
+      <ul>
+        <li>
+          <a href="#colors"><button>Colors</button></a>
+        </li>
+        <li>
+          <a href="#fonts"><button>Fonts</button></a>
+        </li>
+        <li>
+          <a href="#elements"><button>Elements</button></a>
+        </li>
+        <li>
+          <button id="dark-mode-toggle">Change Dark Mode</button>
+        </li>
+      </ul>
+    </nav>
 
-        <div id="colors" class="section">
-            <h2>Colors</h2>
-            <h3>Basic</h3>
-            <div class="color-row">
-                <div id="basic-light" class="color">Light</div>
-                <div id="basic-normal" class="color">Normal</div>
-                <div id="basic-dark" class="color">Dark</div>
-            </div>
-            <h3>Primary</h3>
-            <div class="color-row">
-                <div id="primary-light" class="color">Light</div>
-                <div id="primary-normal" class="color">Normal</div>
-                <div id="primary-dark" class="color">Dark</div>
-            </div>
-            <h3>Secondary</h3>
-            <div class="color-row">
-                <div id="secondary-light" class="color">Light</div>
-                <div id="secondary-normal" class="color">Normal</div>
-                <div id="secondary-dark" class="color">Dark</div>
-            </div>
-        </div>
+    <div id="colors" class="section">
+      <h2>Colors</h2>
+      <h3>Basic</h3>
+      <div class="color-row">
+        <div id="basic-light" class="color">Light</div>
+        <div id="basic-normal" class="color">Normal</div>
+        <div id="basic-dark" class="color">Dark</div>
+      </div>
+      <h3>Primary</h3>
+      <div class="color-row">
+        <div id="primary-light" class="color">Light</div>
+        <div id="primary-normal" class="color">Normal</div>
+        <div id="primary-dark" class="color">Dark</div>
+      </div>
+      <h3>Secondary</h3>
+      <div class="color-row">
+        <div id="secondary-light" class="color">Light</div>
+        <div id="secondary-normal" class="color">Normal</div>
+        <div id="secondary-dark" class="color">Dark</div>
+      </div>
+    </div>
 
-        <div id="fonts" class="section">
-            <h2>Fonts</h2>
-            <h3 class="font">Main - Ubuntu</h3>
-            <p id="sample1" class="sample">Lorem ipsum odor amet, consectetuer adipiscing elit.</p>
+    <div id="fonts" class="section">
+      <h2>Fonts</h2>
+      <h3 class="font">Main - Ubuntu</h3>
+      <p id="sample1" class="sample">
+        Lorem ipsum odor amet, consectetuer adipiscing elit.
+      </p>
 
-            <h3 class="font">Secondary - Arial</h3>
-            <p id="sample2" class="sample">Lorem ipsum odor amet, consectetuer adipiscing elit.</p>
+      <h3 class="font">Secondary - Arial</h3>
+      <p id="sample2" class="sample">
+        Lorem ipsum odor amet, consectetuer adipiscing elit.
+      </p>
 
-            <h3 class="font">Default - Monospace</h3>
-            <p id="sample3" class="sample">Lorem ipsum odor amet, consectetuer adipiscing elit.</p>
-        </div>
+      <h3 class="font">Default - Monospace</h3>
+      <p id="sample3" class="sample">
+        Lorem ipsum odor amet, consectetuer adipiscing elit.
+      </p>
+    </div>
 
-        <div id="elements" class="section">
-            <h2>Elements</h2>
+    <div id="elements" class="section">
+      <h2>Elements</h2>
 
-            <h3>&lt;button&gt;</h3>
-            <div class="element">
-                <button><a href="https://www.youtube.com/watch?v=C43p8h99Cs0" target="_blank">PLEASE CLICK ME!</a></button>
-            </div>
+      <h3>&lt;button&gt;</h3>
+      <div class="element">
+        <button>
+          <a href="https://www.youtube.com/watch?v=C43p8h99Cs0" target="_blank"
+            >PLEASE CLICK ME!</a
+          >
+        </button>
+      </div>
 
-            <h3>&lt;h1&gt;</h3>
-            <div class="element">
-                <h1 class="example">Heading 1</h1>
-            </div>
+      <h3>&lt;h1&gt;</h3>
+      <div class="element">
+        <h1 class="example">Heading 1</h1>
+      </div>
 
-            <h3>&lt;h2&gt;</h3>
-            <div class="element">
-                <h2 class="example">Heading 2</h2>
-            </div>
+      <h3>&lt;h2&gt;</h3>
+      <div class="element">
+        <h2 class="example">Heading 2</h2>
+      </div>
 
-            <h3>&lt;h3&gt;</h3>
-            <div class="element">
-                <h3 class="example">Heading 3</h3>
-            </div>
-        </div>
-    </body>
+      <h3>&lt;h3&gt;</h3>
+      <div class="element">
+        <h3 class="example">Heading 3</h3>
+      </div>
+    </div>
+  </body>
+  <script src="addDarkModeListener.js"></script>
 </html>
